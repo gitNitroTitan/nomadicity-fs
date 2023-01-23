@@ -1,0 +1,342 @@
+@import 'bootstrap/dist/css/bootstrap.css';
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+@media only screen and (min-width: 350px) {
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+  border-radius: 20%/50%;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  -webkit-background-size: cover; /* For WebKit*/
+  background-color: #88effd;
+  background-image: url(/Nomadicity3.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.Navbar {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+.navbar-brand {
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold  !important;
+  font-size: 40px !important;
+  color: #F8C7CC !important;
+  margin-right:5px;
+  margin-left: -15px;
+}
+.mainContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 100vw;
+  gap: 4em;
+  border-radius: 2%;
+  margin-top: 5rem;
+}
+.signOutPage {
+  display: flex;
+  justify-content: center;
+  align-items:flex-end;
+  text-align: center;
+  height: 90vh;
+  padding: 30px;
+  max-width: 100vh;
+  margin: 0 auto;
+}
+.signInBtn {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+}
+.welcomeMsg{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+  margin:10px;
+}
+.signBtn {
+  background: #F8C7CC !important
+  ;
+  color: #E2FAFA;
+  font-size: 1.5rem;
+  width: 12rem;
+}
+.navLogo {
+  height: 2.5rem;
+  margin-left: 1rem;
+}
+.card-img-top{
+  height: 320px;
+  width: 200px;
+  border-radius: 8px;
+  margin-left: 10px;
+}
+.gridCard {
+  margin: 10px;
+  border-radius: 20px;
+  border: none;
+}
+img {
+  border-radius: 20px;
+  margin: 5px;
+}
+.editBtn{
+  margin: .5rem;
+  border-radius: 20%/50%;
+}
+.card-top {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: auto;
+}
+.card-mid {
+  width: 10rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.card-bottom {
+  width: 90vw;
+  display: flex;
+  margin-top: 10rem;
+  justify-content: space-between;
+}
+.card-title {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 40px;
+  padding: 0.5em;
+}
+.columnTwo {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  margin: auto;
+  width: 200px;
+}
+.card-body {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: flex-end;
+  justify-content: center;
+  margin: 10px;
+}
+.columnOne {
+  display: flex;
+  margin-right: 2px;
+}
+.title{
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  font-size: 40px;
+}
+.cardBtns{
+  display: flex;
+  margin:20px 10px;
+  justify-content: center;
+}
+.signOutBtn:hover {
+  background-color: #ffffff !important;
+  color: #F8C7CC !important;
+}
+.formContainer{
+  margin-top: 120px;
+  width: 35rem;
+  border-radius: 8%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.mb-3{
+  width:30rem;
+  text-align:center;
+  border-radius: 8%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.form-control{
+  text-align:center;
+}
+label{
+  text-align:center;
+}
+.card-body{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.signOutBtn{
+  display:flex;
+  background: #D68181 !important;
+  border: hidden !important;
+  margin-right: 15px;
+}
+.bold-text{
+  font-weight:bold;
+  text-decoration: underline;
+}
+.date-created, .location-created{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin: 2px;
+}
+.hike-card, .board-card, .hike-card-lite, .ind-hike-card {
+  display: flex;
+  width: 440px;
+  height: 350px;
+  border-radius: 2%;
+  background: #FFFFFF;
+  align-content: center;
+  margin: 10px;
+}
+.edit-hike-container{
+  margin: 150px auto 10px 10px;
+}
+.mapContainer{
+  display: flex;
+  margin: 10px;
+}
+.icons {
+  border-radius: 50%;
+  background: transparent !important;
+  border: hidden !important;
+}
+.icons:hover{
+  background: #ffffff !important;
+  color: #D68181 !important;
+  width: 12rem;
+}
+.nav-link{
+  width: 70px;
+  font-size: 20px;
+  color: #F8C7CC !important;
+  margin-top: 5px;
+}
+a:hover{
+  justify-content:center;
+  text-align: center;
+  background: #ffffff !important;
+  color: #D68181 !important;
+  width: 6rem;
+}
+a.dropdown-item:hover{
+  align-content: center;
+  margin-left: 3.0px;
+  width:9.5rem;
+  background-color:#F8C7CC !important;
+  opacity: 0.4;
+}
+.container{
+  display: flex;
+  justify-content: center;
+}
+img,
+video{
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  width: 15rem;
+  margin: 10px auto;
+  color: black;
+  border-radius: 20%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.cam-btn, .reset-btn, .upload-btn{
+  display: flex;
+  justify-content: center;
+  margin: 0px 15px;
+  width: 1rem;
+  background: transparent !important;
+  border: hidden !important;
+  color: black !important;
+}
+.dropdown-menu{
+  text-align: center;
+  align-content: center;
+}
+.cam-buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0px;
+}
+.cam-buttons:hover{
+  background-color: hidden !important;
+}
+.switch-cam{
+  width: 5px;
+  position: absolute;
+  z-index: 2;
+  background-color: transparent !important;
+  border: hidden !important;
+  color: #ffffff !important;
+  transform: translate(-460%, -340%) !important;
+  opacity: 1.0 !important;
+}
+.btn:hover{
+  background-color: white;
+  background: transparent !important;
+}
+.btn-submit{
+  background-color: grey !important;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 25px;
+  border: hidden;
+}
+.btn-submit:hover{
+  background: pink !important;
+}
+.btn-hover{
+  background:transparent  !important;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+  color: pink !important;
+  background-color: transparent !important;
+  border: hidden !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.hikesContainer
+{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+margin-top: 100px;
+}
+.boardContainer
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 100px;
+}
+}
